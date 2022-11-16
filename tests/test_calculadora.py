@@ -1,7 +1,7 @@
 import unittest
 from Calculadora.app import sumar, dividir, restar, multiplicar
 
-class Pruebas_Calculadora(unittest.TestCase):
+class test_calculadora(unittest.TestCase):
     def prueba_sumar(self):
         result = sumar(2,3)
         self.assertEqual(result, 5, "El resultado debería ser 5")
